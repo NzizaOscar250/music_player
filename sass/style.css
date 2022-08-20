@@ -1,3 +1,52 @@
+@font-face {
+  font-family: "../fonts/MuseoSansRounded-300";
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot");
+  /* IE9*/
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot?#iefix") format("embedded-opentype"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff2") format("woff2"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff") format("woff"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.ttf") format("truetype"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.svg#MuseoSansRounded-300") format("svg");
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: "TrajanPro";
+  src: url("../fonts/TrajanPro-Regular.ttf") format("truetype");
+}
+body {
+  background: rgb(6, 20, 62);
+}
 
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+}
+.container .header h1 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 30px;
+  align-items: center;
+  background: linear-gradient(48deg, rgba(24, 13, 139, 0.5607843137) 25.45%, rgb(6, 20, 62) 73.44%, #6f42c1 82.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.container .image-sect {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+.container .image-sect img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+@import "defaults.scss";
+@import "variable.scss";
+
+body{
+  background: $bg;
+}
+
+hr{    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;}
+.container{
+
+    width: 600px;
+    margin:auto;
+    background: $light;
+    border:1px solid $light;
+    border-radius: 5px;
+    .header{
+      h1{
+        font-family: "Helvetica Now Display";
+font-style: normal;
+font-weight: 900;
+font-size: 33px;
+line-height: 30px;
+align-items: center;
+background: linear-gradient(48deg, rgba(24, 13, 139, 0.5607843137) 25.45%, rgb(6, 20, 62) 73.44%, $purple 82.73%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+      }
+
+    }
+
+    .image-sect{
+        width: 400px;
+        height:300px;
+        margin: auto;
+
+      img{
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
