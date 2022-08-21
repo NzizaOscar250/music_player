@@ -9,5 +9,11 @@
   font-family: "TrajanPro";
   src: url("../fonts/TrajanPro-Regular.ttf") format("truetype");
 }
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=defaults.css.map */
