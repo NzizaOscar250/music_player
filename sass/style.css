@@ -50,6 +50,7 @@ p {
   background: white;
   border: 1px solid #f8f9fa;
   border-radius: 5px;
+  position: relative;
 }
 .container .header h1 {
   font-family: "Helvetica Now Display";
@@ -70,6 +71,7 @@ p {
 .container .image-sect img {
   width: 100%;
   border-radius: 20px;
+  object-fit: cover;
 }
 .container .progress-area {
   height: 6px;
@@ -82,7 +84,7 @@ p {
   display: block;
   width: 100px;
   height: 100%;
-  background: linear-gradient(48deg, rgba(24, 13, 139, 0.5607843137) 25.45%, rgb(6, 20, 62) 73.44%, #6f42c1 82.73%);
+  background: linear-gradient(#6f42c1, #d63384 50%);
   border-radius: 50px;
 }
 .container .time {
@@ -90,6 +92,24 @@ p {
   justify-content: space-around;
   width: 400px;
   margin: 5px auto;
+}
+.container .controls .las {
+  font-size: 2em;
+}
+.container .controls .la-pause {
+  background: linear-gradient(#6f42c1, #d63384);
+  font-size: 2em;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 100%;
+  border: 5px solid #f1f2f3;
+}
+.container #play-list {
+  background: whitesmoke;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
