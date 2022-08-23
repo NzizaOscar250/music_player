@@ -1,4 +1,4 @@
-const music=[
+const allmusic=[
   {
     name:"Harley Bird - Home",
     artist:"Jordan Sancho",

@@ -26,32 +26,32 @@
               <img src="images/music-3.jpg" alt="">
             </div>
               <div class="content">
-                <h2 class="name">Ikson-Anywhere</h2>
-                <p class="artist">Audio library</p>
+                <h2 class="music_name"></h2>
+                <p class="music_artist"</p>
               </div>
             <div class="progress-area">
-                <span></span>
+                <span id="bar"></span>
             </div>
-            <audio src="">            </audio>
+            <audio src="" id="audio">            </audio>
 
             <div class="time">
-              <span class="current">02:08</span>
-              <span class="current">03:12</span>
+              <span id="current">02:08</span>
+              <span id="duration">03:12</span>
             </div>
 
 
             <div class="controls">
                 <div class="mixin">
-                  <i class="las la-recycle"></i>
+                  <i class="las la-recycles"></i>
                 </div>
-                <div class="">
-                  <i class="las la-fast-backward"></i>
-                  <i class="las la-pause"></i>
-                  <i class="las la-fast-forward"></i>
+                <div class="tools">
+                  <i class="las la-fast-backward" id="prev"></i>
+                  <i class="las la-play" id="pause"></i>
+                  <i class="las la-fast-forward" id="next"></i>
                 </div>
 
               <div class="lists">
-                  <i class="las la-music" id="music-opener"></i>
+                  <i class="las la-musics" id="music-opener"></i>
               </div>
             </div>
 
@@ -186,6 +186,7 @@
             </div>
 
       </div>
+      <script src="music.js" charset="utf-8"></script>
       <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
