@@ -1,0 +1,18 @@
+@font-face {font-family: "MuseoSansRounded-300";
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot"); /* IE9*/
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/a83356d725f309d4c24ac2daca70cd64.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/a83356d725f309d4c24ac2daca70cd64.svg#MuseoSansRounded-300") format("svg"); /* iOS 4.1- */
+
+}
+
+@font-face {font-family: "TrajanPro";
+  src:  url("../fonts/TrajanPro-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+*{
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}

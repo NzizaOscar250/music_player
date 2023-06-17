@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>God's Spear Music Player</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="1.3.0/css/line-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+      <div class="container">
+            <div class="header">
+                    <div class="icon">
+                      <i class="las la-angle-down"></i>
+                    </div>
+                    <div class="text">
+                      <h1>OSBOND-MUSIC</h1>
+                    </div>
+                    <div class="icon">
+                      <i class="las la-bars"></i>
+                    </div>
+
+
+            </div>
+            <div class="image-sect">
+              <img src="images/music-3.jpg" alt="">
+            </div>
+              <div class="content">
+                <h2 class="music_name"></h2>
+                <p class="music_artist"</p>
+              </div>
+            <div class="progress-area">
+                <span id="bar"></span>
+            </div>
+            <audio src="" id="audio">            </audio>
+
+            <div class="time">
+              <span id="current">02:08</span>
+              <span id="duration">03:12</span>
+            </div>
+
+
+            <div class="controls">
+                <div class="mixin">
+                  <i class="las la-recycles"></i>
+                </div>
+                <div class="tools">
+                  <i class="las la-fast-backward" id="prev"></i>
+                  <i class="las la-play" id="pause"></i>
+                  <i class="las la-fast-forward" id="next"></i>
+                </div>
+
+              <div class="lists">
+                  <i class="las la-musics" id="music-opener"></i>
+              </div>
+            </div>
+
+                    <!-- music dropdown lists -->
+
+            <div class="" id="play-list">
+              <div class="music_list_header">
+                  <h3><span>Music Lists</span> </h3>
+                  <p> <i class="las la-times" onclick="CloseLists()"></i> </p>
+              </div>
+
+                 
+
+            </div>
+   <footer>
+    <p>all Right is reserved by Os group 2022-2023</p>
+   </footer>
+      </div>
+      <script src="music.js" charset="utf-8"></script>
+      <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

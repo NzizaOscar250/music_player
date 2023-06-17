@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "MuseoSansRounded-300";
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot");
+  /* IE9*/
+  src: url("../fonts/a83356d725f309d4c24ac2daca70cd64.eot?#iefix") format("embedded-opentype"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff2") format("woff2"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.woff") format("woff"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.ttf") format("truetype"), url("../fonts/a83356d725f309d4c24ac2daca70cd64.svg#MuseoSansRounded-300") format("svg");
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: "TrajanPro";
+  src: url("../fonts/TrajanPro-Regular.ttf") format("truetype");
+}
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=defaults.css.map */

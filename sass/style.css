@@ -1,0 +1,243 @@
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: display 1s ease-in-out, height 0.5s linear;
+}
+
+body {
+  background: rgb(6, 20, 62);
+  font-family: 'Rubik', sans-serif;
+}
+
+hr {
+  margin: 1rem 0;
+  width: 90%;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(6, 20, 62);
+  line-height: 20px;
+}
+
+p {
+
+  font-size: 16px;
+  text-align: center;
+  color: #6f42c1;
+  line-height: 25px;
+}
+
+.container {
+  filter: drop-shadow(3px 2px 3px white);
+  padding: 10px;
+  width: 500px;
+  margin: 1em auto;
+  background: white;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  position: relative;
+}
+.container .header {
+  display: flex;
+  padding: 10px 4px;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+.container .header h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 30px;
+  align-items: center;
+  background: linear-gradient(48deg, #d63384 25.45%, rgb(6, 20, 62) 73.44%, #d63384 82.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.container .image-sect {
+  width: 400px;
+  margin: auto;
+}
+.container .image-sect img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: drop-shadow(2px 5px 8px grey);
+}
+.container .progress-area {
+  height: 6px;
+  width: 100%;
+  border: 0.1px solid rgba(0, 0, 0, 0.4);
+  background: rgba(238, 238, 238, 0.9333333333);
+  border-radius: 50px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.container .progress-area span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(#6f42c1, #d63384 50%);
+  border-radius: 50px;
+}
+.container .time {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 5px auto;
+}
+.container .las {
+  font-size: 2em;
+  color: #252627;
+  cursor: pointer;
+}
+.container .la-bars {
+  font-size: 1em;
+  margin: auto;
+  overflow: hidden;
+  color: rgb(6, 20, 62) !important;
+}
+.container .la-angle-down {
+  font-size: 1em;
+}
+.container .icon {
+  align-self: center;
+}
+.container .controls {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+}
+.container .controls .la-pause, .container .controls .la-play {
+  background: linear-gradient(#6f42c1, #d63384);
+  font-size: 2em;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 100%;
+  border: 5px solid #f1f2f3;
+}
+.container .controls .mixin, .container .controls .lists {
+  align-self: center;
+}
+.container #play-list {
+  background: whitesmoke;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  
+  height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+.container #play-list::-webkit-scrollbar {
+  background: #d63384;
+  width: 8px;
+  border-radius: 50px;
+}
+.container #play-list::-webkit-scrollbar-thumb {
+  background: rgb(4, 60, 60);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container #play-list .header {
+  justify-content: space-between;
+  padding: 5px 10px;
+  position: sticky;
+  top: 0;
+  background: white;
+  margin: 0;
+  background: #d63384;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.container #play-list .header p .las {
+  color: white;
+}
+.container #play-list .header h3 {
+  display: flex;
+}
+.container #play-list .header h3 span {
+  color: white;
+  align-self: center;
+}
+.container #play-list .header h3 .las {
+  color: white;
+}
+.container #play-list .music-item {
+  display:flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  margin: 10px auto;
+  cursor: pointer;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  
+}
+.music-name{
+  flex:1;
+}
+
+
+.music-image img{
+height: 30px;
+object-fit: cover;
+border-radius: 10px;
+}
+.container #play-list .music-item:last-child {
+  border: 0;
+}
+.container #play-list .music-item h2, .container #play-list .music-item p {
+ 
+  text-align: left;
+  color: inherit !important;
+  font-weight: 400 !important;
+}
+.container #play-list .playing h2, .container #play-list .playing p {
+  color: #d63384 !important;
+}
+
+.container #play-list .music-item:hover{
+  background-color:rgba(172, 172, 172, 0.827);
+}
+
+/* music drop down styles */
+
+
+.music_list_header{
+  background-color:rgb(6, 20, 62);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: sticky;
+  top: 0;
+}
+.music_list_header h3{
+  color:white;
+}
+
+.music_list_header .la-times{
+  color: white; font-size: 1em;
+}
+
+
+
+footer p{
+  text-transform: capitalize;
+  color: rgb(141, 137, 137);
+}
+
+
+/*# sourceMappingURL=style.css.map */
